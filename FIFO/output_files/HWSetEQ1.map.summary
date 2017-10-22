@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Thu Oct 19 23:30:42 2017
+Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+Revision Name : HWSetEQ1
+Top-level Entity Name : HWSetEQ1
+Family : MAX 10
+Total logic elements : 151
+    Total combinational functions : 70
+    Dedicated logic registers : 96
+Total registers : 96
+Total pins : 25
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

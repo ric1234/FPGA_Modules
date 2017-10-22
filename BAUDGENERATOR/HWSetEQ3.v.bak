@@ -1,0 +1,29 @@
+/*
+Module/Entity Name:  HWSetEQ3
+Signal Names:
+
+	Clk 		-- Clock
+	Reset		-- Active High Reset
+	Baud_select	-- <as per Q> -bit input to select the baud rate
+	Clock_out	-- Output clock/baud
+*/
+module HWSetEQ3(Clk, Reset, Baud_select, Clock_out)
+	input Clk;
+	input Reset;		//Asynchronous
+	input Baud_select;
+	output Clock_out;
+	
+	reg baud_value;
+	
+always @(posedge Clk)
+	begin
+		baud_value = baud_value+1;
+		if(baud_value==128)
+			begin
+				Clock_out = ~Clock_out;
+				baud_value = 0;
+			end
+		else
+			Clock_out =  Clock_out;
+	end
+endmodule 

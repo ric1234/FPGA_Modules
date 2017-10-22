@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/AlteraPrj/FIFO/simulation/qsim
+vhard_block
+Z1 !s110 1508459863
+!i10b 1
+!s100 Dz@jzdn_B[4^]iM:DnaeP1
+ISHNNP4Ik`lB8c0IQbzaV20
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1508459862
+Z4 8HWSetEQ1.vo
+Z5 FHWSetEQ1.vo
+L0 4152
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1508459863.000000
+Z8 !s107 HWSetEQ1.vo|
+Z9 !s90 -work|work|HWSetEQ1.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vHWSetEQ1
+R1
+!i10b 1
+!s100 UbkjV4Z1:MABP<1GgdfV03
+IBQ]_EJ_X2mEi2]n0bD@>H1
+R2
+R0
+R3
+R4
+R5
+L0 32
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@h@w@set@e@q1
+vHWSetEQ1_vlg_vec_tst
+R1
+!i10b 1
+!s100 L@[RZRZTCK<XLIofRA3AM3
+IH^e5oT:HN<OWZ66fQZn<o1
+R2
+R0
+w1508459861
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+n@h@w@set@e@q1_vlg_vec_tst

@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/AlteraPrj/ALU/simulation/qsim
+vhard_block
+Z1 !s110 1508465141
+!i10b 1
+!s100 FLI^AUng_MiE>5Sl`6Jh21
+IDV0LF?lEnCLb2IIKJK^XQ2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1508465140
+Z4 8HWSetEQ2.vo
+Z5 FHWSetEQ2.vo
+L0 7479
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1508465141.000000
+Z8 !s107 HWSetEQ2.vo|
+Z9 !s90 -work|work|HWSetEQ2.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vHWSetEQ2
+R1
+!i10b 1
+!s100 oGHTMe9IzS7j3S1m1O]<11
+Ij^;1a@@]eTC93aM[AlfGg0
+R2
+R0
+R3
+R4
+R5
+L0 32
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@h@w@set@e@q2
+vHWSetEQ2_vlg_vec_tst
+R1
+!i10b 1
+!s100 PRl_6:?4b4eM^CLN1Oz_82
+I8^<_>U?TP[ZB8=4C;DjUn0
+R2
+R0
+w1508465139
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+n@h@w@set@e@q2_vlg_vec_tst

@@ -1,0 +1,30 @@
+/*
+Module/Entity Name:  HWSetEQ1
+Signal Names:
+
+	clk 		-- Clock
+	RdPtrClr	--  Read Pointer Clear,  to reset the read pointer
+	WrPtrClr	--  Write Pointer Clear, to reset the write pointer
+	rdinc		--  Read pointer increment signal 
+	wrinc		--  Write pointer increment signal
+	DataIn		--  Data input bus
+	DataOut	--  Data Output bus
+	rden		--  read (output) enable
+	wden		--  write (input) enable
+
+*/
+
+
+module (clk, RdPtrClr, WrPtrClr, rdinc, rdinc, wrinc, DataIn, DataOut, rden, wden);
+	input clk;
+	input RdPtrClr; 
+	input WrPtrClr; 
+	input rdinc; 
+	input rdinc;
+	input	wrinc;
+	input DataIn; 
+	output DataOut;
+	input rden;
+	input wden;
+	
+	

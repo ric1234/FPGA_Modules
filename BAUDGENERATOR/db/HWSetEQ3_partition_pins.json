@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Clock_out",
+					"strict" : false
+				},
+				{
+					"name" : "Baud_select[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Baud_select[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Baud_select[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Baud_select[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Clk",
+					"strict" : false
+				},
+				{
+					"name" : "Reset",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

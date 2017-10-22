@@ -1,0 +1,666 @@
+// Copyright (C) 2016  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel MegaCore Function License Agreement, or other 
+// applicable license agreement, including, without limitation, 
+// that your use is for the sole purpose of programming logic 
+// devices manufactured by Intel and sold by Intel or its 
+// authorized distributors.  Please refer to the applicable 
+// agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "10/19/2017 20:05:39"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          HWSetEQ2
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module HWSetEQ2_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg [31:0] A;
+reg [31:0] B;
+reg Clock;
+reg [4:0] Op;
+reg [31:0] treg_Y_temp;
+// wires                                               
+wire [31:0] Y;
+wire [31:0] Y_temp;
+
+// assign statements (if any)                          
+assign Y_temp = treg_Y_temp;
+HWSetEQ2 i1 (
+// port map - connection between master ports and signals/registers   
+	.A(A),
+	.B(B),
+	.Clock(Clock),
+	.Op(Op),
+	.Y(Y),
+	.Y_temp(Y_temp)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+
+// Clock
+always
+begin
+	Clock = 1'b0;
+	Clock = #5000 1'b1;
+	#5000;
+end 
+// A[ 31 ]
+initial
+begin
+	A[31] = 1'b0;
+end 
+// A[ 30 ]
+initial
+begin
+	A[30] = 1'b0;
+end 
+// A[ 29 ]
+initial
+begin
+	A[29] = 1'b0;
+end 
+// A[ 28 ]
+initial
+begin
+	A[28] = 1'b0;
+end 
+// A[ 27 ]
+initial
+begin
+	A[27] = 1'b0;
+end 
+// A[ 26 ]
+initial
+begin
+	A[26] = 1'b0;
+end 
+// A[ 25 ]
+initial
+begin
+	A[25] = 1'b0;
+end 
+// A[ 24 ]
+initial
+begin
+	A[24] = 1'b0;
+end 
+// A[ 23 ]
+initial
+begin
+	A[23] = 1'b0;
+end 
+// A[ 22 ]
+initial
+begin
+	A[22] = 1'b0;
+end 
+// A[ 21 ]
+initial
+begin
+	A[21] = 1'b0;
+end 
+// A[ 20 ]
+initial
+begin
+	A[20] = 1'b0;
+end 
+// A[ 19 ]
+initial
+begin
+	A[19] = 1'b0;
+end 
+// A[ 18 ]
+initial
+begin
+	A[18] = 1'b0;
+end 
+// A[ 17 ]
+initial
+begin
+	A[17] = 1'b0;
+end 
+// A[ 16 ]
+initial
+begin
+	A[16] = 1'b0;
+end 
+// A[ 15 ]
+initial
+begin
+	A[15] = 1'b0;
+end 
+// A[ 14 ]
+initial
+begin
+	A[14] = 1'b0;
+end 
+// A[ 13 ]
+initial
+begin
+	A[13] = 1'b0;
+end 
+// A[ 12 ]
+initial
+begin
+	A[12] = 1'b0;
+end 
+// A[ 11 ]
+initial
+begin
+	A[11] = 1'b0;
+end 
+// A[ 10 ]
+initial
+begin
+	A[10] = 1'b0;
+end 
+// A[ 9 ]
+initial
+begin
+	A[9] = 1'b1;
+end 
+// A[ 8 ]
+initial
+begin
+	A[8] = 1'b0;
+end 
+// A[ 7 ]
+initial
+begin
+	A[7] = 1'b0;
+end 
+// A[ 6 ]
+initial
+begin
+	A[6] = 1'b0;
+	A[6] = #640000 1'b1;
+end 
+// A[ 5 ]
+initial
+begin
+	A[5] = 1'b1;
+	A[5] = #640000 1'b0;
+end 
+// A[ 4 ]
+initial
+begin
+	A[4] = 1'b0;
+	A[4] = #320000 1'b1;
+	A[4] = #320000 1'b0;
+	A[4] = #320000 1'b1;
+end 
+// A[ 3 ]
+initial
+begin
+	repeat(3)
+	begin
+		A[3] = 1'b0;
+		A[3] = #160000 1'b1;
+		# 160000;
+	end
+	A[3] = 1'b0;
+end 
+// A[ 2 ]
+initial
+begin
+	repeat(6)
+	begin
+		A[2] = 1'b0;
+		A[2] = #80000 1'b1;
+		# 80000;
+	end
+	A[2] = 1'b0;
+end 
+// A[ 1 ]
+initial
+begin
+	repeat(12)
+	begin
+		A[1] = 1'b0;
+		A[1] = #40000 1'b1;
+		# 40000;
+	end
+	A[1] = 1'b0;
+end 
+// A[ 0 ]
+always
+begin
+	A[0] = 1'b0;
+	A[0] = #20000 1'b1;
+	#20000;
+end 
+// B[ 31 ]
+initial
+begin
+	B[31] = 1'b0;
+end 
+// B[ 30 ]
+initial
+begin
+	B[30] = 1'b0;
+end 
+// B[ 29 ]
+initial
+begin
+	B[29] = 1'b0;
+end 
+// B[ 28 ]
+initial
+begin
+	B[28] = 1'b0;
+end 
+// B[ 27 ]
+initial
+begin
+	B[27] = 1'b0;
+end 
+// B[ 26 ]
+initial
+begin
+	B[26] = 1'b0;
+end 
+// B[ 25 ]
+initial
+begin
+	B[25] = 1'b0;
+end 
+// B[ 24 ]
+initial
+begin
+	B[24] = 1'b0;
+end 
+// B[ 23 ]
+initial
+begin
+	B[23] = 1'b0;
+end 
+// B[ 22 ]
+initial
+begin
+	B[22] = 1'b0;
+end 
+// B[ 21 ]
+initial
+begin
+	B[21] = 1'b0;
+end 
+// B[ 20 ]
+initial
+begin
+	B[20] = 1'b0;
+end 
+// B[ 19 ]
+initial
+begin
+	B[19] = 1'b0;
+end 
+// B[ 18 ]
+initial
+begin
+	B[18] = 1'b0;
+end 
+// B[ 17 ]
+initial
+begin
+	B[17] = 1'b0;
+end 
+// B[ 16 ]
+initial
+begin
+	B[16] = 1'b0;
+end 
+// B[ 15 ]
+initial
+begin
+	B[15] = 1'b0;
+end 
+// B[ 14 ]
+initial
+begin
+	B[14] = 1'b0;
+end 
+// B[ 13 ]
+initial
+begin
+	B[13] = 1'b0;
+end 
+// B[ 12 ]
+initial
+begin
+	B[12] = 1'b0;
+end 
+// B[ 11 ]
+initial
+begin
+	B[11] = 1'b0;
+end 
+// B[ 10 ]
+initial
+begin
+	B[10] = 1'b0;
+end 
+// B[ 9 ]
+initial
+begin
+	B[9] = 1'b0;
+end 
+// B[ 8 ]
+initial
+begin
+	B[8] = 1'b1;
+end 
+// B[ 7 ]
+initial
+begin
+	B[7] = 1'b0;
+	B[7] = #640000 1'b1;
+end 
+// B[ 6 ]
+initial
+begin
+	B[6] = 1'b0;
+	B[6] = #320000 1'b1;
+	B[6] = #320000 1'b0;
+	B[6] = #320000 1'b1;
+end 
+// B[ 5 ]
+initial
+begin
+	repeat(3)
+	begin
+		B[5] = 1'b0;
+		B[5] = #160000 1'b1;
+		# 160000;
+	end
+	B[5] = 1'b0;
+end 
+// B[ 4 ]
+initial
+begin
+	repeat(6)
+	begin
+		B[4] = 1'b0;
+		B[4] = #80000 1'b1;
+		# 80000;
+	end
+	B[4] = 1'b0;
+end 
+// B[ 3 ]
+initial
+begin
+	repeat(12)
+	begin
+		B[3] = 1'b0;
+		B[3] = #40000 1'b1;
+		# 40000;
+	end
+	B[3] = 1'b0;
+end 
+// B[ 2 ]
+always
+begin
+	B[2] = 1'b0;
+	B[2] = #20000 1'b1;
+	#20000;
+end 
+// B[ 1 ]
+initial
+begin
+	B[1] = 1'b1;
+end 
+// B[ 0 ]
+initial
+begin
+	B[0] = 1'b0;
+end 
+// Op[ 4 ]
+initial
+begin
+	Op[4] = 1'b0;
+	Op[4] = #80000 1'b1;
+	Op[4] = #80000 1'b0;
+	Op[4] = #80000 1'b1;
+	# 80000;
+	repeat(4)
+	begin
+		Op[4] = 1'b0;
+		Op[4] = #80000 1'b1;
+		# 80000;
+	end
+	Op[4] = 1'b0;
+end 
+// Op[ 3 ]
+initial
+begin
+	repeat(2)
+	begin
+		Op[3] = 1'b0;
+		Op[3] = #40000 1'b1;
+		# 40000;
+	end
+	Op[3] = 1'b0;
+	Op[3] = #120000 1'b1;
+	# 40000;
+	repeat(8)
+	begin
+		Op[3] = 1'b0;
+		Op[3] = #40000 1'b1;
+		# 40000;
+	end
+	Op[3] = 1'b0;
+end 
+// Op[ 2 ]
+initial
+begin
+	repeat(4)
+	begin
+		Op[2] = 1'b0;
+		Op[2] = #20000 1'b1;
+		# 20000;
+	end
+	Op[2] = 1'b0;
+	Op[2] = #100000 1'b1;
+	# 20000;
+	repeat(18)
+	begin
+		Op[2] = 1'b0;
+		Op[2] = #20000 1'b1;
+		# 20000;
+	end
+end 
+// Op[ 1 ]
+initial
+begin
+	Op[1] = 1'b0;
+	Op[1] = #200000 1'b1;
+	Op[1] = #40000 1'b0;
+end 
+// Op[ 0 ]
+initial
+begin
+	Op[0] = 1'b0;
+	Op[0] = #180000 1'b1;
+	Op[0] = #20000 1'b0;
+	Op[0] = #20000 1'b1;
+	Op[0] = #20000 1'b0;
+end 
+// Y_temp[ 31 ]
+initial
+begin
+	treg_Y_temp[31] = 1'bZ;
+end 
+// Y_temp[ 30 ]
+initial
+begin
+	treg_Y_temp[30] = 1'bZ;
+end 
+// Y_temp[ 29 ]
+initial
+begin
+	treg_Y_temp[29] = 1'bZ;
+end 
+// Y_temp[ 28 ]
+initial
+begin
+	treg_Y_temp[28] = 1'bZ;
+end 
+// Y_temp[ 27 ]
+initial
+begin
+	treg_Y_temp[27] = 1'bZ;
+end 
+// Y_temp[ 26 ]
+initial
+begin
+	treg_Y_temp[26] = 1'bZ;
+end 
+// Y_temp[ 25 ]
+initial
+begin
+	treg_Y_temp[25] = 1'bZ;
+end 
+// Y_temp[ 24 ]
+initial
+begin
+	treg_Y_temp[24] = 1'bZ;
+end 
+// Y_temp[ 23 ]
+initial
+begin
+	treg_Y_temp[23] = 1'bZ;
+end 
+// Y_temp[ 22 ]
+initial
+begin
+	treg_Y_temp[22] = 1'bZ;
+end 
+// Y_temp[ 21 ]
+initial
+begin
+	treg_Y_temp[21] = 1'bZ;
+end 
+// Y_temp[ 20 ]
+initial
+begin
+	treg_Y_temp[20] = 1'bZ;
+end 
+// Y_temp[ 19 ]
+initial
+begin
+	treg_Y_temp[19] = 1'bZ;
+end 
+// Y_temp[ 18 ]
+initial
+begin
+	treg_Y_temp[18] = 1'bZ;
+end 
+// Y_temp[ 17 ]
+initial
+begin
+	treg_Y_temp[17] = 1'bZ;
+end 
+// Y_temp[ 16 ]
+initial
+begin
+	treg_Y_temp[16] = 1'bZ;
+end 
+// Y_temp[ 15 ]
+initial
+begin
+	treg_Y_temp[15] = 1'bZ;
+end 
+// Y_temp[ 14 ]
+initial
+begin
+	treg_Y_temp[14] = 1'bZ;
+end 
+// Y_temp[ 13 ]
+initial
+begin
+	treg_Y_temp[13] = 1'bZ;
+end 
+// Y_temp[ 12 ]
+initial
+begin
+	treg_Y_temp[12] = 1'bZ;
+end 
+// Y_temp[ 11 ]
+initial
+begin
+	treg_Y_temp[11] = 1'bZ;
+end 
+// Y_temp[ 10 ]
+initial
+begin
+	treg_Y_temp[10] = 1'bZ;
+end 
+// Y_temp[ 9 ]
+initial
+begin
+	treg_Y_temp[9] = 1'bZ;
+end 
+// Y_temp[ 8 ]
+initial
+begin
+	treg_Y_temp[8] = 1'bZ;
+end 
+// Y_temp[ 7 ]
+initial
+begin
+	treg_Y_temp[7] = 1'bZ;
+end 
+// Y_temp[ 6 ]
+initial
+begin
+	treg_Y_temp[6] = 1'bZ;
+end 
+// Y_temp[ 5 ]
+initial
+begin
+	treg_Y_temp[5] = 1'bZ;
+end 
+// Y_temp[ 4 ]
+initial
+begin
+	treg_Y_temp[4] = 1'bZ;
+end 
+// Y_temp[ 3 ]
+initial
+begin
+	treg_Y_temp[3] = 1'bZ;
+end 
+// Y_temp[ 2 ]
+initial
+begin
+	treg_Y_temp[2] = 1'bZ;
+end 
+// Y_temp[ 1 ]
+initial
+begin
+	treg_Y_temp[1] = 1'bZ;
+end 
+// Y_temp[ 0 ]
+initial
+begin
+	treg_Y_temp[0] = 1'bZ;
+end 
+endmodule
+
